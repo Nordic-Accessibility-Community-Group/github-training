@@ -14,7 +14,7 @@ The files contain deliberate spelling mistakes. Your task is to fix one, check y
 
 1. At the top of this repository, select **Fork**, then **Create a new fork** if that menu appears. Choose your personal account as the owner, keep the name `github-training`, and select **Create fork**. A fork is your own copy on GitHub. If you already have a fork, open that copy instead.
 2. Check that the repository name at the top is **your username / github-training**. Open the branch selector, initially **main**. Type `fix-contribution-spelling` and select **Create branch: fix-contribution-spelling from main**. A branch keeps this proposed edit separate from the starting version.
-3. Open [practice.md](practice.md) **in your own fork on that branch**. Select **Edit this file** (the pencil button). Change `contributon` to `contribution`. Leave the other text unchanged for now.
+3. In your own fork’s file list on that branch, open `practice.md`. Select **Edit this file** (the pencil button). Change `contributon` to `contribution`. Leave the other text unchanged for now.
 4. Select **Preview** and read the corrected sentence. If needed, return to **Edit** to adjust it.
 5. Select **Commit changes…**. Replace any prefilled commit message with `Correct contribution spelling`. Keep the commit on your `fix-contribution-spelling` branch, then select **Commit changes**. A commit records your edit with a short explanation.
 6. Return to your fork's file list using the **github-training** breadcrumb above the file. Check that `fix-contribution-spelling` is still selected. Use **Contribute → Open pull request**, or **Compare & pull request** if GitHub offers that banner. A pull request asks the original repository to consider your change.
