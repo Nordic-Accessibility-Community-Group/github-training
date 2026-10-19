@@ -18,13 +18,13 @@ The files contain deliberate spelling mistakes. Your task is to fix one, check y
 4. Select **Preview** and read the corrected sentence. If needed, return to **Edit** to adjust it.
 5. Select **Commit changes…**. Replace any prefilled commit message with `Correct contribution spelling`. Keep the commit on your `fix-contribution-spelling` branch, then select **Commit changes**. A commit records your edit with a short explanation.
 6. Return to your fork's file list using the **github-training** breadcrumb above the file. Check that `fix-contribution-spelling` is still selected. Use **Contribute → Open pull request**, or **Compare & pull request** if GitHub offers that banner. A pull request asks the original repository to consider your change.
-7. Check the comparison before continuing:
+7. Check the comparison before continuing. **Base** is where you propose the change; **head** is where your edit lives:
    - **Base repository:** `Nordic-Accessibility-Community-Group/github-training`
    - **Base:** `main`
    - **Head repository:** your personal `github-training` fork
    - **Compare:** `fix-contribution-spelling`
 8. Read the file comparison. It should contain only your one-word correction in `practice.md`. Removed and added lines are marked with minus and plus signs. If there are unrelated changes, stop and check the selected repositories and branches.
-9. If the title and description fields are not yet visible, select **Create pull request** to open them. Replace the title with `[Practice] Correct contribution spelling`. Use this description:
+9. If the title and description fields are not yet visible, select **Create pull request** to open them. Replace the title with `[Practice] Correct contribution spelling`. Explain what you changed and why. You may use this example as a starting point:
 
    ```markdown
    ## Problem
@@ -38,7 +38,7 @@ The files contain deliberate spelling mistakes. Your task is to fix one, check y
 
 10. Use the description's **Preview** tab to check the paragraphs and headings. Select **Create pull request** to submit. Open **Files changed** to confirm the correction. Keep the link to your pull request so you can return to it.
 
-**You have finished when your pull request is open and contains only the intended correction.** It proposes a change; the original file changes only if a maintainer merges it. Practice pull requests stay open so everyone can use the same starting files. Please do not merge them.
+**Final check:** your pull request should be open and contain only the intended correction. Point to the changed line and explain what you corrected. Check that the base is the group's training repository. Has its original file changed yet? **No:** the pull request proposes the change; merging would apply it. Practice pull requests stay open so everyone can use the same starting files. Please do not merge them.
 
 If you cannot find the comparison, open the original training repository, select **Pull requests → New pull request → compare across forks**, and choose the repositories and branches listed in step 7. If GitHub shows an existing pull request for your branch, open it instead of creating another.
 
@@ -48,7 +48,9 @@ In your existing `fix-contribution-spelling` branch, edit `practice.md` again. R
 
 ## If you need help
 
-Tell Tobias which step you reached, or describe what you expected to happen. You can use speech or chat. If the editor or sign-in prevents you from completing the exercise, identify the correction and guide Tobias through the steps while he operates GitHub. You can return later to practise independently.
+Tell Tobias which step you reached, or describe what you expected to happen. You can use speech or chat. If sign-in, forking, or editing prevents you from completing the exercise, identify the correction and guide Tobias through the steps while he operates GitHub. This is supported practice; you can return later to complete the workflow independently.
+
+If your fork or working branch already exists, reuse it to continue unfinished work. To start again, select your fork's `main` and create a fresh branch name, such as `fix-contribution-spelling-2`. Use that name wherever the exercise names the working branch. If GitHub offers an existing pull request for your branch, open it.
 
 ## Examples from the group's work
 
