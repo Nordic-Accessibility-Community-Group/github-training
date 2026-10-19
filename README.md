@@ -16,15 +16,15 @@ The files contain deliberate spelling mistakes. Your task is to fix one, check y
 2. Check that the repository name at the top is **your username / github-training**. Open the branch selector, initially **main**. Type `fix-contribution-spelling` and select **Create branch: fix-contribution-spelling from main**. A branch keeps this proposed edit separate from the starting version.
 3. Open [practice.md](practice.md) **in your own fork on that branch**. Select **Edit this file** (the pencil button). Change `contributon` to `contribution`. Leave the other text unchanged for now.
 4. Select **Preview** and read the corrected sentence. If needed, return to **Edit** to adjust it.
-5. Select **Commit changes…**. Enter `Correct contribution spelling` as the commit message. Keep the commit on your `fix-contribution-spelling` branch, then select **Commit changes**. A commit records your edit with a short explanation.
-6. On your fork's **Code** page, use **Contribute → Open pull request**, or **Compare & pull request** if GitHub offers that banner. A pull request asks the original repository to consider your change.
+5. Select **Commit changes…**. Replace any prefilled commit message with `Correct contribution spelling`. Keep the commit on your `fix-contribution-spelling` branch, then select **Commit changes**. A commit records your edit with a short explanation.
+6. Return to your fork's file list using the **github-training** breadcrumb above the file. Check that `fix-contribution-spelling` is still selected. Use **Contribute → Open pull request**, or **Compare & pull request** if GitHub offers that banner. A pull request asks the original repository to consider your change.
 7. Check the comparison before continuing:
    - **Base repository:** `Nordic-Accessibility-Community-Group/github-training`
    - **Base:** `main`
    - **Head repository:** your personal `github-training` fork
    - **Compare:** `fix-contribution-spelling`
 8. Read the file comparison. It should contain only your one-word correction in `practice.md`. Removed and added lines are marked with minus and plus signs. If there are unrelated changes, stop and check the selected repositories and branches.
-9. Select **Create pull request**. Give it the title `[Practice] Correct contribution spelling`. Use this description:
+9. If the title and description fields are not yet visible, select **Create pull request** to open them. Replace the title with `[Practice] Correct contribution spelling`. Use this description:
 
    ```markdown
    ## Problem
@@ -36,7 +36,7 @@ The files contain deliberate spelling mistakes. Your task is to fix one, check y
    Change contributon to contribution.
    ```
 
-10. Select **Create pull request** to submit. Open **Files changed** to confirm the correction. Keep the link to your pull request so you can return to it.
+10. Use the description's **Preview** tab to check the paragraphs and headings. Select **Create pull request** to submit. Open **Files changed** to confirm the correction. Keep the link to your pull request so you can return to it.
 
 **You have finished when your pull request is open and contains only the intended correction.** It proposes a change; the original file changes only if a maintainer merges it. Practice pull requests stay open so everyone can use the same starting files. Please do not merge them.
 
@@ -60,6 +60,6 @@ Tell Tobias which step you reached, or describe what you expected to happen. You
 
 ## For the facilitator
 
-Use [demo.md](demo.md) for the demonstration. Correct `usefull` to `useful` in your own fork on a new branch. Keep demonstration and practice pull requests open and leave the starting files on `main` unchanged. A rehearsal branch and pull request may already exist; use a different branch for the live session.
+Use [demo.md](demo.md) for the demonstration. Correct `usefull` to `useful` in your own fork on a new branch. Keep demonstration and practice pull requests open and leave the starting files on `main` unchanged. [Demonstration pull request 1](https://github.com/Nordic-Accessibility-Community-Group/github-training/pull/1) is available as a worked example. For the live session, start from your fork's `main` and use the new branch `fix-demo-spelling-live`.
 
 The exercise follows GitHub's [browser pull request quickstart](https://docs.github.com/en/pull-requests/get-started/pull-request-quickstart) and [file editing instructions](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files). Button wording can vary slightly.
